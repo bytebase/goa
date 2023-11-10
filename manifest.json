@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Goto",
+  "version": "0.1",
+  "description": "Goto: Your Shortcut to the Web",
+  "permissions": [
+    "activeTab",
+    "declarativeNetRequest",
+    "favicon",
+    "storage",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "action": {
+    "default_icon": "goto.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "omnibox": {
+    "keyword": "o/"
+  },
+  "icons": {
+    "48": "goto.png"
+  }
+}

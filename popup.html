@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goto Web</title>
+  <style>
+    .list-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+    .list-item button {
+      background-color: #f44336;
+      color: white;
+      border: none;
+      padding: 5px;
+      cursor: pointer;
+    }
+  </style>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <h1>Goto Feeds</h1>
+  <input type="text" id="feedInput" placeholder="Enter feed">
+  <button id="addButton">Add</button>
+  <button id="syncButton">Sync</button>
+  <div id="feeds"></div>
+</body>
+</html>
