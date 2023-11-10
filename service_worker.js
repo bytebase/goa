@@ -7,4 +7,4 @@ chrome.webRequest.onBeforeRequest.addListener((param) => {
       }
     }
   });
-}, { urls: ["*://*/search*", "*://o/*", "*://go/*"] })
+}, {urls: ["*://o/*", "*://go/*", "*://goto/*"]})
