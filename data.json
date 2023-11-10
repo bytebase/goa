@@ -3,5 +3,10 @@
     "short": "go/home",
     "full": "https://bytebase.com",
     "description": "Welcome to Bytebase!"
+  },
+  {
+    "short": "go/code",
+    "full": "https://github.com/bytebase/goto",
+    "description": "Go back to work."
   }
 ]
