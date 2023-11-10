@@ -1,5 +1,10 @@
 [
   {
+    "short": "go/",
+    "full": "https://github.com/bytebase/goto/blob/main/data.json",
+    "description": "Mange all short links"
+  },
+  {
     "short": "go/home",
     "full": "https://bytebase.com",
     "description": "Welcome to Bytebase!"
