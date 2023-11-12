@@ -4,9 +4,6 @@
   "version": "0.1",
   "description": "Goa: Your Shortcut to the Web",
   "permissions": [
-    "activeTab",
-    "declarativeNetRequest",
-    "favicon",
     "storage",
     "webRequest"
   ],
@@ -14,7 +11,7 @@
     "*://*/*"
   ],
   "action": {
-    "default_icon": "goa.png",
+    "default_icon": "ext.png",
     "default_popup": "popup.html"
   },
   "background": {
@@ -24,6 +21,6 @@
     "keyword": "o/"
   },
   "icons": {
-    "48": "goa.png"
+    "48": "ext.png"
   }
 }
