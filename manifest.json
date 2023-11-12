@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Goto",
+  "name": "Goa",
   "version": "0.1",
-  "description": "Goto: Your Shortcut to the Web",
+  "description": "Goa: Your Shortcut to the Web",
   "permissions": [
     "activeTab",
     "declarativeNetRequest",
@@ -14,7 +14,7 @@
     "*://*/*"
   ],
   "action": {
-    "default_icon": "goto.png",
+    "default_icon": "goa.png",
     "default_popup": "popup.html"
   },
   "background": {
@@ -24,6 +24,6 @@
     "keyword": "o/"
   },
   "icons": {
-    "48": "goto.png"
+    "48": "goa.png"
   }
 }

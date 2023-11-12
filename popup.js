@@ -66,7 +66,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   function updateFeeds() {
-    // Example: "https://github.com/bytebase/secret/raw/main/goto/data.json".
     console.log('Syncing data...');
     // Clear links,
     chrome.storage.local.set({'links': []});

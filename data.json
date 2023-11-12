@@ -1,7 +1,7 @@
 [
   {
     "short": "go/",
-    "full": "https://github.com/bytebase/goto/blob/main/data.json",
+    "full": "https://github.com/bytebase/goa/blob/main/data.json",
     "description": "Mange all short links"
   },
   {
@@ -11,7 +11,7 @@
   },
   {
     "short": "go/code",
-    "full": "https://github.com/bytebase/goto",
+    "full": "https://github.com/bytebase/goa",
     "description": "Go back to work."
   }
 ]
